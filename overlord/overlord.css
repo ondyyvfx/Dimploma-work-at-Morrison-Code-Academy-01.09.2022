@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;600&display=swap');
+
+* {
+    font-family: 'Nunito Sans', sans-serif;
+    color: white;
+    box-sizing: border-box;
+    transition: 0.7s ease all;
+}
+
+.description {
+    text-align: center;
+}
+
+body {
+    background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(../image/overlord\ poster.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+button {
+    border: none;
+    padding: 15px 35px;
+    border-radius: 25px;
+    font-size: 1rem;
+    color: black;
+    background-color: #ffffff;
+}
+
+button:hover {
+    cursor: pointer;
+    color: #002b99;
+    box-shadow: 0 0 20px 0 #002b99;
+}
+
+header nav a {
+    justify-content: space-between;
+    margin-left: 40px;
+    font-weight: 700px;
+    text-decoration: none;
+}
+
+header nav {
+    margin-left: 1000px;
+}
+
+header nav a:first-child {
+    margin-left: 0px;
+}
